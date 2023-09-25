@@ -2,6 +2,4 @@
 
 <h1>fight-game</h1>
 <h2>A simple 2d game, maked using JS</h2>
-
-
-
+<h3>Link to the site https://app.netlify.com/sites/gregarious-swan-6ccdc6/</h3>
