@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #bbb;
+}
+
+
+.fightarea{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    
+}
+
+.photoarea{
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    justify-content: space-between;
+    background:url("battleback1_0.png") repeat-y right top fixed;
+    background-size: cover;
+}
+
+.charImg1{
+    height: 200px;
+    margin-left: -30px;
+}
+.charImg2{
+    height: 200px;
+    margin-right: -39px;
+    
+}
+
+#char,
+#moster{
+    flex: 1;
+
+}
+
+.lifebar{
+    height: 20px;
+    border: 1px solid #333;
+    border-radius: 5px ;
+    margin-bottom: 10px;
+    
+}
+
+.lifebar .bar{
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+    
+    
+}
+
+.log{
+    border: 1px solid #999;
+    height: 500px;
+    width: 95%;
+    overflow-y: scroll;
+    list-style: none;
+    margin: 15px;
+    color: aliceblue;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+.attackButton{
+    color: #333;
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;   
+}
+
+.attackButton:hover{
+    background-color: #333;
+    color: aliceblue;
+}
+
+
